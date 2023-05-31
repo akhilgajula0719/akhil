@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Lightning Card for Title" icon-name="standard-lightning_component">Hello
+        <div class="slds-m-around-medium">
+            <lightning-input label="Draft message:" value={message} onchange={handelChange} placeholder="Type your message here"></lightning-input> 
+        </div>
+        <br>
+        <div>
+            <lightning-button variant="Send" label="Send" title="Send" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
